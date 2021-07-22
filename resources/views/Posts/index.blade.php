@@ -3,7 +3,7 @@
         @foreach ($posts as $post)
             <article>
                 <h1 class="font-bold text-2xl text-gray-800 hover:underline hover:text-green-400">
-                    <a href="/posts/{{ $post->slug }}">
+                    <a href="/posts/{{ $post->id }}">
                         {{ $post->title }}
                     </a>
                 </h1>
